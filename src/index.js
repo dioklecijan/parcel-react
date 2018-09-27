@@ -8,6 +8,9 @@ import Hello from './Hello';
 // [√]  CSS import
 // [√]  CSS modules
 // [√]  eslint
+// [√]  prettier
+// [√]  precommit
+// [√]  watchers
 
 const App = () => (
   <div>
