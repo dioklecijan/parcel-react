@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import cls from './index.css';
 
-console.log(cls.title);
+import Hello from './Hello';
+
 // [√]  HMR
+// [√]  production build
 // [√]  CSS import
 // [√]  CSS modules
-//      Must install postcss-modules and set modules:true in .postcssrc
-// [√]  production build
+// [√]  eslint
+
 const App = () => (
   <div>
-    <h1 className={cls.title}>Hello Parcel</h1>
+    <Hello name="Hello Parcel" />
   </div>
 );
 
